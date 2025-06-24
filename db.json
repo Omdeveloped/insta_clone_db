@@ -1,0 +1,106 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "profile_pic": "src/assets/profile1.jfif",
+
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVBPsl6ajtMOFexrI-5kdoshnq2jdGcAAqA&s",
+
+      "caption": "Enjoying the beauty of nature! 🌿🌞",
+      "likes": 120,
+      "comments": [
+        { "user": "alice", "text": "Wow! Amazing view!" },
+        { "user": "mark", "text": "Where is this place?" }
+      ],
+      "time": "2 hours ago",
+      "has": "#post"
+    },
+    {
+      "id": 2,
+      "username": "sarah_smith",
+      "profile_pic": "src/assets/profile2.jfif",
+      "image": "https://cdn.pixabay.com/photo/2018/08/15/02/47/night-3607146_1280.jpg",
+      "caption": "City lights at night! ✨🏙️",
+      "likes": 200,
+      "comments": [
+        { "user": "james", "text": "Looks stunning!" },
+        { "user": "emma", "text": "Love this shot!" }
+      ],
+      "time": "3 hours ago",
+      "has": "#post"
+    }
+  ],
+
+  "profile": {
+    "id": 1,
+    "username": "john_doe",
+    "profile_pic": "src/assets/profile1.jfif",
+    "image": "src/assets/instalogo.png",
+    "post": ["src/assets/instalogo.png"],
+    "follower": "",
+    "following": ""
+  },
+  "suggestion": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "profile_pic": "src/assets/profile1.jfif"
+    },
+    {
+      "id": 2,
+      "username": "sarah_smith",
+      "profile_pic": "src/assets/profile2.jfif"
+    },
+    {
+      "id": 3,
+      "username": "smith",
+      "profile_pic": "src/assets/profile3.jfif"
+    },
+    {
+      "id": 4,
+      "username": "john",
+      "profile_pic": "src/assets/profile4.jfif"
+    }
+  ],
+  "story": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "profile_pic": "src/assets/profile1.jfif",
+      "url": "/src/assets/story11.jpg"
+    },
+    {
+      "id": 2,
+      "username": "sarah_smith",
+      "profile_pic": "src/assets/profile2.jfif",
+      "url": "/src/assets/story2.jpg"
+    }
+  ],
+  "reel": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "profile_pic": "src/assets/profile1.jfif",
+      "reel": "src/assets/r1.mp4"
+    },
+    {
+      "id": 2,
+      "username": "sarah_smith",
+      "profile_pic": "src/assets/profile2.jfif",
+      "reel": "src/assets/r2.mp4"
+    },
+    {
+      "id": 3,
+      "username": "smith",
+      "profile_pic": "src/assets/profile3.jfif",
+      "reel": "src/assets/r3.mp4"
+    },
+    {
+      "id": 4,
+      "username": "john",
+      "profile_pic": "src/assets/profile4.jfif",
+      "reel": "src/assets/r4.mp4"
+    }
+  ]
+}
