@@ -1,0 +1,25 @@
+{
+  "name": "insta_clone_db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omdeveloped/insta_clone_db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Omdeveloped/insta_clone_db/issues"
+  },
+  "homepage": "https://github.com/Omdeveloped/insta_clone_db#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
